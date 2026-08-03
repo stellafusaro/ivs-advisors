@@ -1,50 +1,90 @@
-<main class="min-h-screen bg-[#f2efeb] flex flex-col items-center pt-40 px-6">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — IVS Advisors</title>
 
-  <h1 class="text-5xl font-light tracking-wide uppercase mb-16">
-    Projects
-  </h1>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-  <div class="flex flex-col gap-8 w-full max-w-4xl">
+<body class="min-h-screen bg-[#f2efeb] text-black">
 
-    <a href="consultant.html"
-       class="border border-black p-10 hover:bg-black hover:text-white transition duration-300">
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full flex justify-between items-center px-6 py-4 text-sm tracking-widest uppercase text-black z-10 bg-[#f2efeb]/70 backdrop-blur-md">
+    <div class="text-base font-light">
+      <a href="index.html" class="hover:underline">Home</a>
+    </div>
 
-      <h2 class="text-2xl font-light uppercase tracking-wide">
-        Project Consultant
-      </h2>
+    <ul class="flex space-x-8 text-sm font-light">
+      <li>
+        <a href="about.html" class="hover:underline">About</a>
+      </li>
+      <li>
+        <a href="projects.html" class="underline">Projects</a>
+      </li>
+      <li>
+        <a href="clients.html" class="hover:underline">Clients</a>
+      </li>
+      <li>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-      <p class="mt-2 text-sm tracking-widest uppercase opacity-70">
-        IVS Advisors
-      </p>
+  <!-- Projects page content -->
+  <main class="min-h-screen pt-32 px-6 sm:px-16 md:px-24 lg:px-32 pb-20">
 
-    </a>
+    <h1 class="text-4xl font-light tracking-wide uppercase mb-12 text-center">
+      Projects
+    </h1>
 
-    <a href="cde.html"
-       class="border border-black p-10 hover:bg-black hover:text-white transition duration-300">
+    <div class="max-w-4xl mx-auto flex flex-col gap-8">
 
-      <h2 class="text-2xl font-light uppercase tracking-wide">
-        CDE Consultant
-      </h2>
+      <!-- Project Consultant -->
+      <a
+        href="project-consultant.html"
+        class="block border border-black p-8 sm:p-10 transition duration-300 hover:bg-black hover:text-white"
+      >
+        <h2 class="text-2xl font-light tracking-wide uppercase">
+          Project Consultant
+        </h2>
 
-      <p class="mt-2 text-sm tracking-widest uppercase opacity-70">
-        Urban America
-      </p>
+        <p class="mt-3 text-sm tracking-widest uppercase opacity-70">
+          IVS Advisors
+        </p>
+      </a>
 
-    </a>
+      <!-- CDE Consultant -->
+      <a
+        href="cde-consultant.html"
+        class="block border border-black p-8 sm:p-10 transition duration-300 hover:bg-black hover:text-white"
+      >
+        <h2 class="text-2xl font-light tracking-wide uppercase">
+          CDE Consultant
+        </h2>
 
-    <a href="banker.html"
-       class="border border-black p-10 hover:bg-black hover:text-white transition duration-300">
+        <p class="mt-3 text-sm tracking-widest uppercase opacity-70">
+          Urban America
+        </p>
+      </a>
 
-      <h2 class="text-2xl font-light uppercase tracking-wide">
-        Banker
-      </h2>
+      <!-- Banker -->
+      <a
+        href="banker.html"
+        class="block border border-black p-8 sm:p-10 transition duration-300 hover:bg-black hover:text-white"
+      >
+        <h2 class="text-2xl font-light tracking-wide uppercase">
+          Banker
+        </h2>
 
-      <p class="mt-2 text-sm tracking-widest uppercase opacity-70">
-        JPMorgan Chase
-      </p>
+        <p class="mt-3 text-sm tracking-widest uppercase opacity-70">
+          JPMorgan Chase
+        </p>
+      </a>
 
-    </a>
+    </div>
+  </main>
 
-  </div>
-
-</main>
+</body>
+</html>

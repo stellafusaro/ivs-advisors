@@ -6,7 +6,7 @@
 
   <div class="flex flex-col gap-8 w-full max-w-4xl">
 
-    <a href="project-consultant.html"
+    <a href="consultant.html"
        class="border border-black p-10 hover:bg-black hover:text-white transition duration-300">
 
       <h2 class="text-2xl font-light uppercase tracking-wide">
@@ -19,7 +19,7 @@
 
     </a>
 
-    <a href="cde-consultant.html"
+    <a href="cde.html"
        class="border border-black p-10 hover:bg-black hover:text-white transition duration-300">
 
       <h2 class="text-2xl font-light uppercase tracking-wide">
