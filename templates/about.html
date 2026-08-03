@@ -1,34 +1,100 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — IVS Advisors</title>
 
-{% block title %}About — IVS Advisors{% endblock %}
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-{% block content %}
-<div class="min-h-screen bg-[#f2efeb] text-black pt-32 px-6 sm:px-16 md:px-24 lg:px-32 pb-20">
-  
-<h1 class="text-4xl font-light tracking-wide uppercase mb-12 text-center">
-    Vetia Searcy
-  </h1>
-  <!-- Image and bio block -->
-  <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
-    
-    <!-- Image -->
-    <div class="flex-shrink-0">
-      <img src="{{ url_for('static', filename='vetia.png') }}" alt="Vetia Searcy" class="w-72 h-auto rounded-md shadow-md" />
+<body class="min-h-screen bg-[#f2efeb] text-black">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full flex justify-between items-center px-6 py-4 text-sm tracking-widest uppercase text-black z-10 bg-[#f2efeb]/70 backdrop-blur-md">
+    <div class="text-base font-light">
+      <a href="index.html" class="hover:underline">Home</a>
     </div>
-    
-    <!-- Text -->
-    <div class="max-w-3xl text-base leading-relaxed space-y-4">
-      <p><strong>Vetia Searcy</strong> is the Founder and Principal of <em>ILS Corporate Services, LLC</em> (est. 2005) and <em>IVS Advisors</em>, harnessing over 15 years of experience in corporate, finance, and real estate transactions. She holds a unique industry perspective having worked on all three sides of New Markets Tax Credits (NMTC) transactions.</p>
 
-      <p>As a <strong>CDE Consultant</strong>, Ms. Searcy supervised preparation of 4 successful NMTC award applications, closed on over $267MM in NMTC transactions, managed compliance procedures, and sourced allocation for national and local CDEs. As <strong>Vice President of Community Development Tax Credits</strong> at JPMorgan Chase, she originated, underwrote, structured, and closed over $200MM in NMTC and hybrid NMTC/Historic & NMTC/LIHTC transactions, increasing closings in her coverage area by over 100%.</p>
+    <ul class="flex space-x-8 text-sm font-light">
+      <li>
+        <a href="about.html" class="underline">About</a>
+      </li>
+      <li>
+        <a href="services.html" class="hover:underline">Services</a>
+      </li>
+      <li>
+        <a href="clients.html" class="hover:underline">Clients</a>
+      </li>
+      <li>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-      <p>As a <strong>Project Consultant</strong>, she uses her expertise to guide CEOs, CFOs, and Project Managers through the NMTC closing process, specializing in sourcing allocation for rural, metro, and underserved communities.</p>
+  <!-- About page content -->
+  <main class="min-h-screen pt-32 px-6 sm:px-16 md:px-24 lg:px-32 pb-20">
+    <h1 class="text-4xl font-light tracking-wide uppercase mb-12 text-center">
+      Vetia Searcy
+    </h1>
 
-      <p>During New York State on PAUSE, she volunteered her expertise to advise under-banked, minority independent contractors and small businesses, connecting them to community-based banks that could assist with PPP loans.</p>
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
 
-      <p>Ms. Searcy is a graduate of Columbia College, Columbia University. She is an active participant in NMTC panel presentations across the U.S. Notable awards include the <em>Novogradac Non-Metro QLICI of the Year Award</em> (2017) and <em>Honorable Mention</em> for the same category that year.</p>
+      <!-- Image -->
+      <div class="flex-shrink-0">
+        <img
+          src="static/vetia.png"
+          alt="Vetia Searcy"
+          class="w-72 h-auto rounded-md shadow-md"
+        />
+      </div>
+
+      <!-- Biography -->
+      <div class="max-w-3xl text-base leading-relaxed space-y-4">
+        <p>
+          <strong>Vetia Searcy</strong> is the Founder and Principal of
+          <em>ILS Corporate Services, LLC</em> (est. 2005) and
+          <em>IVS Advisors</em>, harnessing over 15 years of experience in
+          corporate, finance, and real estate transactions. She holds a unique
+          industry perspective, having worked on all three sides of New Markets
+          Tax Credits (NMTC) transactions.
+        </p>
+
+        <p>
+          As a <strong>CDE Consultant</strong>, Ms. Searcy supervised the
+          preparation of four successful NMTC award applications, closed over
+          $267 million in NMTC transactions, managed compliance procedures, and
+          sourced allocation for national and local CDEs. As
+          <strong>Vice President of Community Development Tax Credits</strong>
+          at JPMorgan Chase, she originated, underwrote, structured, and closed
+          over $200 million in NMTC and hybrid NMTC/Historic and NMTC/LIHTC
+          transactions, increasing closings in her coverage area by over 100%.
+        </p>
+
+        <p>
+          As a <strong>Project Consultant</strong>, she uses her expertise to
+          guide CEOs, CFOs, and project managers through the NMTC closing
+          process, specializing in sourcing allocation for rural, metropolitan,
+          and underserved communities.
+        </p>
+
+        <p>
+          During New York State on PAUSE, she volunteered her expertise to
+          advise underbanked, minority independent contractors and small
+          businesses, connecting them with community-based banks that could
+          assist with PPP loans.
+        </p>
+
+        <p>
+          Ms. Searcy is a graduate of Columbia College, Columbia University.
+          She is an active participant in NMTC panel presentations across the
+          United States. Notable awards include the
+          <em>Novogradac Non-Metro QLICI of the Year Award</em> in 2017 and an
+          <em>Honorable Mention</em> in the same category that year.
+        </p>
+      </div>
     </div>
-  </div>
-</div>
-{% endblock %}
+  </main>
 
+</body>
+</html>
