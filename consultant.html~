@@ -93,7 +93,7 @@
         </div>
 
         <img
-          src="static/cprojone.jpeg"
+          src="static/cprojone.png"
           alt="Boys and Girls Clubs of Lanier project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />
@@ -133,7 +133,7 @@
         </div>
 
         <img
-          src="static/cprojtwo.jpeg"
+          src="static/cprojtwo.png"
           alt="FPL Food expansion project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />
@@ -171,7 +171,7 @@
         </div>
 
         <img
-          src="static/cprojthree.jpeg"
+          src="static/cprojthree.png"
           alt="Newberry College project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />
@@ -210,7 +210,7 @@
         </div>
 
         <img
-          src="static/cprojfour.jpeg"
+          src="static/cprojfour.png"
           alt="Neighborhood Health project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />
@@ -249,7 +249,7 @@
         </div>
 
         <img
-          src="static/cprojfive.jpeg"
+          src="static/cprojfive.png"
           alt="GrowFood Carolina project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />
@@ -288,7 +288,7 @@
         </div>
 
         <img
-          src="static/cprojsix.jpeg"
+          src="static/cprojsix.png"
           alt="HUB for Community Innovation project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />
@@ -325,7 +325,7 @@
         </div>
 
         <img
-          src="static/cprojseven.jpeg"
+          src="static/cprojseven.png"
           alt="Boys and Girls Clubs of Greater Augusta project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />
