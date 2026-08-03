@@ -1,9 +1,51 @@
-<!-- index.html -->
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IVS Advisors</title>
 
-{% block content %}
-<div class="h-screen w-screen flex items-center justify-center bg-cover bg-center" style="background-color : #f2efeb">
-  <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="w-[600px] max-w-[150vw] object-contain" />
-</div>
-{% endblock %}
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
+<body
+  class="text-black bg-cover bg-center bg-no-repeat min-h-screen w-screen"
+  style="background-color: #f2efeb;"
+>
+  <!-- Navbar -->
+  <nav
+    class="fixed top-0 left-0 w-full flex justify-between items-center px-6 py-4 text-sm tracking-widest uppercase text-black z-10 bg-[#f2efeb]/70 backdrop-blur-md"
+  >
+    <div class="text-base font-light">
+      <a href="index.html" class="hover:underline">Home</a>
+    </div>
+
+    <ul class="flex space-x-8 text-sm font-light">
+      <li>
+        <a href="about.html" class="hover:underline">About</a>
+      </li>
+      <li>
+        <a href="services.html" class="hover:underline">Services</a>
+      </li>
+      <li>
+        <a href="clients.html" class="hover:underline">Clients</a>
+      </li>
+      <li>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Homepage content -->
+  <main
+    class="min-h-screen w-screen flex items-center justify-center bg-cover bg-center"
+    style="background-color: #f2efeb;"
+  >
+    <img
+      src="static/logo.png"
+      alt="IVS Advisors logo"
+      class="w-[600px] max-w-[90vw] object-contain"
+    />
+  </main>
+</body>
+</html>
