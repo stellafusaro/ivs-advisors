@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{% block title %}My Site{% endblock %}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-white bg-cover bg-center bg-no-repeat h-screen w-screen" style="background-color: #f2efeb">
+
+  <!-- Navbar -->
+<!-- layout.html -->
+<nav class="fixed top-0 left-0 w-full flex justify-between items-center px-6 py-4 text-sm tracking-widest uppercase text-black z-10 bg-[#f2efeb]/70 backdrop-blur-md">
+  <div class="text-base font-light">
+    <a href="{{ url_for('home') }}">Home</a>
+  </div>
+  <ul class="flex space-x-8 text-sm font-light">
+    <li><a href="{{ url_for('about') }}" class="hover:underline">About</a></li>
+    <li><a href="#" class="hover:underline">Services</a></li>
+    <li><a href="#" class="hover:underline">Clients</a></li>
+    <li><a href="#" class="hover:underline">Contact</a></li>
+  </ul>
+</nav>
+  
+<!-- Page Content -->
+  {% block content %}{% endblock %}
+
+</body>
+</html>
+
