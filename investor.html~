@@ -83,7 +83,7 @@
         <div>
 
         <img
-          src="static/iprojone.jpg"
+          src="static/iprojone.jpeg"
           alt="Nemak Project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />
@@ -108,7 +108,7 @@
         </div>
 
         <img
-          src="static/iprojtwo.jpeg"
+          src="static/iprojtwo.webp"
           alt="Williams Sausage expansion project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />
@@ -132,7 +132,7 @@
         </div>
 
         <img
-          src="static/iprojthree.jpg"
+          src="static/iprojthree.webp"
           alt="NCRP project"
           class="w-full h-auto mt-10 rounded-md shadow-md object-cover"
         />

@@ -22,9 +22,9 @@ def consultant():
 def cde():
          return render_template("cde.html")
 
-@app.route("/banker")
-def banker():
-         return render_template("banker.html")
+@app.route("/investor")
+def investor():
+         return render_template("investor.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
